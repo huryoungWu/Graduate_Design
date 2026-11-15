@@ -1,0 +1,1325 @@
+[
+ {
+  "file": "hai-20.07\\test1.csv",
+  "sep": ";",
+  "ncols": 64,
+  "nrows": 291600,
+  "first": "2019-10-29 11:00:00",
+  "last": "2019-11-01 19:59:59",
+  "ts_valid": 291600,
+  "tmin": "2019-10-29 11:00:00",
+  "tmax": "2019-11-01 19:59:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 50861,
+  "null_cells": 50861,
+  "cells": 18662400,
+  "null_cols": {
+   "P1_B4002": 28862,
+   "P1_PCV02D": 399,
+   "P4_ST_PS": 21600
+  },
+  "null_col_count": 3,
+  "label_cols": {
+   "attack": {
+    "pos": 11538,
+    "rows": 291600,
+    "segments": 28,
+    "pct": 3.9568
+   },
+   "attack_P1": {
+    "pos": 9683,
+    "rows": 291600,
+    "segments": 22,
+    "pct": 3.3206
+   },
+   "attack_P2": {
+    "pos": 2495,
+    "rows": 291600,
+    "segments": 7,
+    "pct": 0.8556
+   },
+   "attack_P3": {
+    "pos": 1197,
+    "rows": 291600,
+    "segments": 7,
+    "pct": 0.4105
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-20.07\\test2.csv",
+  "sep": ";",
+  "ncols": 64,
+  "nrows": 153000,
+  "first": "2019-11-04 15:00:00",
+  "last": "2019-11-06 09:29:59",
+  "ts_valid": 153000,
+  "tmin": "2019-11-04 15:00:00",
+  "tmax": "2019-11-06 09:29:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 14399,
+  "null_cells": 14399,
+  "cells": 9792000,
+  "null_cols": {
+   "P4_ST_PS": 14399
+  },
+  "null_col_count": 1,
+  "label_cols": {
+   "attack": {
+    "pos": 5989,
+    "rows": 153000,
+    "segments": 10,
+    "pct": 3.9144
+   },
+   "attack_P1": {
+    "pos": 5207,
+    "rows": 153000,
+    "segments": 8,
+    "pct": 3.4033
+   },
+   "attack_P2": {
+    "pos": 3510,
+    "rows": 153000,
+    "segments": 3,
+    "pct": 2.2941
+   },
+   "attack_P3": {
+    "pos": 604,
+    "rows": 153000,
+    "segments": 4,
+    "pct": 0.3948
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-20.07\\train1.csv",
+  "sep": ";",
+  "ncols": 64,
+  "nrows": 309600,
+  "first": "2019-09-11 20:00:00",
+  "last": "2019-09-15 09:59:59",
+  "ts_valid": 309600,
+  "tmin": "2019-09-11 20:00:00",
+  "tmax": "2019-09-15 09:59:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 90,
+  "null_cells": 90,
+  "cells": 19814400,
+  "null_cols": {
+   "P1_B4002": 90
+  },
+  "null_col_count": 1,
+  "label_cols": {
+   "attack": {
+    "pos": 0,
+    "rows": 309600,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P1": {
+    "pos": 0,
+    "rows": 309600,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P2": {
+    "pos": 0,
+    "rows": 309600,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P3": {
+    "pos": 0,
+    "rows": 309600,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-20.07\\train2.csv",
+  "sep": ";",
+  "ncols": 64,
+  "nrows": 241200,
+  "first": "2019-11-01 20:00:00",
+  "last": "2019-11-04 14:59:59",
+  "ts_valid": 241200,
+  "tmin": "2019-11-01 20:00:00",
+  "tmax": "2019-11-04 14:59:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 39630,
+  "null_cells": 39630,
+  "cells": 15436800,
+  "null_cols": {
+   "P1_B4002": 18028,
+   "P4_ST_PS": 21602
+  },
+  "null_col_count": 2,
+  "label_cols": {
+   "attack": {
+    "pos": 776,
+    "rows": 241200,
+    "segments": 2,
+    "pct": 0.3217
+   },
+   "attack_P1": {
+    "pos": 776,
+    "rows": 241200,
+    "segments": 2,
+    "pct": 0.3217
+   },
+   "attack_P2": {
+    "pos": 0,
+    "rows": 241200,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P3": {
+    "pos": 0,
+    "rows": 241200,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-21.03\\test1.csv",
+  "sep": ",",
+  "ncols": 84,
+  "nrows": 43201,
+  "first": "2020-07-07 15:00:00",
+  "last": "2020-07-08 03:00:00",
+  "ts_valid": 43201,
+  "tmin": "2020-07-07 15:00:00",
+  "tmax": "2020-07-08 03:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 3628884,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {
+   "attack": {
+    "pos": 629,
+    "rows": 43201,
+    "segments": 5,
+    "pct": 1.456
+   },
+   "attack_P1": {
+    "pos": 480,
+    "rows": 43201,
+    "segments": 3,
+    "pct": 1.1111
+   },
+   "attack_P2": {
+    "pos": 149,
+    "rows": 43201,
+    "segments": 2,
+    "pct": 0.3449
+   },
+   "attack_P3": {
+    "pos": 0,
+    "rows": 43201,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-21.03\\test2.csv",
+  "sep": ",",
+  "ncols": 84,
+  "nrows": 118801,
+  "first": "2020-07-09 15:00:00",
+  "last": "2020-07-11 00:00:00",
+  "ts_valid": 118801,
+  "tmin": "2020-07-09 15:00:00",
+  "tmax": "2020-07-11 00:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 86406,
+  "null_cells": 86406,
+  "cells": 9979284,
+  "null_cols": {
+   "P1_B4002": 86317,
+   "P1_PCV02D": 89
+  },
+  "null_col_count": 2,
+  "label_cols": {
+   "attack": {
+    "pos": 3449,
+    "rows": 118801,
+    "segments": 20,
+    "pct": 2.9032
+   },
+   "attack_P1": {
+    "pos": 2414,
+    "rows": 118801,
+    "segments": 30,
+    "pct": 2.032
+   },
+   "attack_P2": {
+    "pos": 643,
+    "rows": 118801,
+    "segments": 11,
+    "pct": 0.5412
+   },
+   "attack_P3": {
+    "pos": 238,
+    "rows": 118801,
+    "segments": 2,
+    "pct": 0.2003
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-21.03\\test3.csv",
+  "sep": ",",
+  "ncols": 84,
+  "nrows": 108001,
+  "first": "2020-07-13 00:00:00",
+  "last": "2020-07-14 06:00:00",
+  "ts_valid": 108001,
+  "tmin": "2020-07-13 00:00:00",
+  "tmax": "2020-07-14 06:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 142,
+  "null_cells": 142,
+  "cells": 9072084,
+  "null_cols": {
+   "P1_PCV02D": 96,
+   "P4_ST_TT01": 46
+  },
+  "null_col_count": 2,
+  "label_cols": {
+   "attack": {
+    "pos": 1535,
+    "rows": 108001,
+    "segments": 8,
+    "pct": 1.4213
+   },
+   "attack_P1": {
+    "pos": 1337,
+    "rows": 108001,
+    "segments": 9,
+    "pct": 1.238
+   },
+   "attack_P2": {
+    "pos": 372,
+    "rows": 108001,
+    "segments": 13,
+    "pct": 0.3444
+   },
+   "attack_P3": {
+    "pos": 0,
+    "rows": 108001,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-21.03\\test4.csv",
+  "sep": ",",
+  "ncols": 84,
+  "nrows": 39601,
+  "first": "2020-07-28 12:00:00",
+  "last": "2020-07-28 23:00:00",
+  "ts_valid": 39601,
+  "tmin": "2020-07-28 12:00:00",
+  "tmax": "2020-07-28 23:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 21071,
+  "null_cells": 21071,
+  "cells": 3326484,
+  "null_cols": {
+   "P1_B4002": 21039,
+   "P1_PCV02D": 23,
+   "P4_ST_PT01": 9
+  },
+  "null_col_count": 3,
+  "label_cols": {
+   "attack": {
+    "pos": 1157,
+    "rows": 39601,
+    "segments": 5,
+    "pct": 2.9216
+   },
+   "attack_P1": {
+    "pos": 1035,
+    "rows": 39601,
+    "segments": 4,
+    "pct": 2.6136
+   },
+   "attack_P2": {
+    "pos": 175,
+    "rows": 39601,
+    "segments": 8,
+    "pct": 0.4419
+   },
+   "attack_P3": {
+    "pos": 360,
+    "rows": 39601,
+    "segments": 3,
+    "pct": 0.9091
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-21.03\\test5.csv",
+  "sep": ",",
+  "ncols": 84,
+  "nrows": 92401,
+  "first": "2020-07-30 10:50:00",
+  "last": "2020-07-31 12:30:00",
+  "ts_valid": 92401,
+  "tmin": "2020-07-30 10:50:00",
+  "tmax": "2020-07-31 12:30:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 44761,
+  "null_cells": 44761,
+  "cells": 7761684,
+  "null_cols": {
+   "P1_B4002": 44578,
+   "P1_PCV02D": 159,
+   "P4_ST_PT01": 24
+  },
+  "null_col_count": 3,
+  "label_cols": {
+   "attack": {
+    "pos": 2177,
+    "rows": 92401,
+    "segments": 12,
+    "pct": 2.356
+   },
+   "attack_P1": {
+    "pos": 1771,
+    "rows": 92401,
+    "segments": 13,
+    "pct": 1.9166
+   },
+   "attack_P2": {
+    "pos": 525,
+    "rows": 92401,
+    "segments": 17,
+    "pct": 0.5682
+   },
+   "attack_P3": {
+    "pos": 360,
+    "rows": 92401,
+    "segments": 3,
+    "pct": 0.3896
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-21.03\\train1.csv",
+  "sep": ",",
+  "ncols": 84,
+  "nrows": 216001,
+  "first": "2020-07-11 00:00:00",
+  "last": "2020-07-13 12:00:00",
+  "ts_valid": 216001,
+  "tmin": "2020-07-11 00:00:00",
+  "tmax": "2020-07-13 12:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 297678,
+  "null_cells": 297678,
+  "cells": 18144084,
+  "null_cols": {
+   "P1_FCV01D": 103161,
+   "P1_FCV01Z": 188590,
+   "P1_FCV02D": 5830,
+   "P2_CO_rpm": 95,
+   "P3_LCP01D": 2
+  },
+  "null_col_count": 5,
+  "label_cols": {
+   "attack": {
+    "pos": 0,
+    "rows": 216001,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P1": {
+    "pos": 0,
+    "rows": 216001,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P2": {
+    "pos": 0,
+    "rows": 216001,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P3": {
+    "pos": 0,
+    "rows": 216001,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-21.03\\train2.csv",
+  "sep": ",",
+  "ncols": 84,
+  "nrows": 226801,
+  "first": "2020-07-31 22:00:00",
+  "last": "2020-08-03 13:00:00",
+  "ts_valid": 226801,
+  "tmin": "2020-07-31 22:00:00",
+  "tmax": "2020-08-03 13:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 114553,
+  "null_cells": 114553,
+  "cells": 19051284,
+  "null_cols": {
+   "P1_B4005": 58684,
+   "P1_FCV01D": 53341,
+   "P1_FCV02D": 2524,
+   "P3_LCP01D": 2,
+   "P3_LCV01D": 2
+  },
+  "null_col_count": 5,
+  "label_cols": {
+   "attack": {
+    "pos": 0,
+    "rows": 226801,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P1": {
+    "pos": 0,
+    "rows": 226801,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P2": {
+    "pos": 0,
+    "rows": 226801,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P3": {
+    "pos": 0,
+    "rows": 226801,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-21.03\\train3.csv",
+  "sep": ",",
+  "ncols": 84,
+  "nrows": 478801,
+  "first": "2020-08-04 22:00:00",
+  "last": "2020-08-10 11:00:00",
+  "ts_valid": 478801,
+  "tmin": "2020-08-04 22:00:00",
+  "tmax": "2020-08-10 11:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 785,
+  "null_cells": 785,
+  "cells": 40219284,
+  "null_cols": {
+   "P2_CO_rpm": 325,
+   "P3_LCP01D": 2,
+   "P3_LCV01D": 2,
+   "P3_PIT01": 205,
+   "P4_ST_TT01": 251
+  },
+  "null_col_count": 5,
+  "label_cols": {
+   "attack": {
+    "pos": 0,
+    "rows": 478801,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P1": {
+    "pos": 0,
+    "rows": 478801,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P2": {
+    "pos": 0,
+    "rows": 478801,
+    "segments": 0,
+    "pct": 0.0
+   },
+   "attack_P3": {
+    "pos": 0,
+    "rows": 478801,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\test1.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 86400,
+  "first": "2021-07-10 00:00:01",
+  "last": "2021-07-11 00:00:00",
+  "ts_valid": 86400,
+  "tmin": "2021-07-10 00:00:01",
+  "tmax": "2021-07-11 00:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 56,
+  "null_cells": 56,
+  "cells": 7603200,
+  "null_cols": {
+   "P1_PCV02D": 56
+  },
+  "null_col_count": 1,
+  "label_cols": {
+   "Attack": {
+    "pos": 885,
+    "rows": 86400,
+    "segments": 7,
+    "pct": 1.0243
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\test2.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 82800,
+  "first": "2021-07-13 16:00:01",
+  "last": "2021-07-14 15:00:00",
+  "ts_valid": 82800,
+  "tmin": "2021-07-13 16:00:01",
+  "tmax": "2021-07-14 15:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 25,
+  "null_cells": 25,
+  "cells": 7286400,
+  "null_cols": {
+   "P1_PCV02D": 25
+  },
+  "null_col_count": 1,
+  "label_cols": {
+   "Attack": {
+    "pos": 2881,
+    "rows": 82800,
+    "segments": 17,
+    "pct": 3.4795
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\test3.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 62400,
+  "first": "2021-07-14 17:40:01",
+  "last": "2021-07-15 11:00:00",
+  "ts_valid": 62400,
+  "tmin": "2021-07-14 17:40:01",
+  "tmax": "2021-07-15 11:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 205,
+  "null_cells": 205,
+  "cells": 5491200,
+  "null_cols": {
+   "P1_PCV02D": 205
+  },
+  "null_col_count": 1,
+  "label_cols": {
+   "Attack": {
+    "pos": 3841,
+    "rows": 62400,
+    "segments": 10,
+    "pct": 6.1554
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\test4.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 129600,
+  "first": "2021-07-15 12:00:01",
+  "last": "2021-07-17 00:00:00",
+  "ts_valid": 129600,
+  "tmin": "2021-07-15 12:00:01",
+  "tmax": "2021-07-17 00:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 101642,
+  "null_cells": 101642,
+  "cells": 11404800,
+  "null_cols": {
+   "P1_PCV02D": 55,
+   "P2_AutoSD": 101587
+  },
+  "null_col_count": 2,
+  "label_cols": {
+   "Attack": {
+    "pos": 4423,
+    "rows": 129600,
+    "segments": 24,
+    "pct": 3.4128
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\train1.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 93601,
+  "first": "2021-07-11 10:00:00",
+  "last": "2021-07-12 12:00:00",
+  "ts_valid": 93601,
+  "tmin": "2021-07-11 10:00:00",
+  "tmax": "2021-07-12 12:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 4,
+  "null_cells": 4,
+  "cells": 8236888,
+  "null_cols": {
+   "P1_PCV02D": 4
+  },
+  "null_col_count": 1,
+  "label_cols": {
+   "Attack": {
+    "pos": 0,
+    "rows": 93601,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\train2.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 201600,
+  "first": "2021-07-17 00:00:01",
+  "last": "2021-07-19 08:00:00",
+  "ts_valid": 201600,
+  "tmin": "2021-07-17 00:00:01",
+  "tmax": "2021-07-19 08:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 3,
+  "null_cells": 3,
+  "cells": 17740800,
+  "null_cols": {
+   "P1_PCV02D": 3
+  },
+  "null_col_count": 1,
+  "label_cols": {
+   "Attack": {
+    "pos": 0,
+    "rows": 201600,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\train3.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 126000,
+  "first": "2021-07-23 18:00:01",
+  "last": "2021-07-25 05:00:00",
+  "ts_valid": 126000,
+  "tmin": "2021-07-23 18:00:01",
+  "tmax": "2021-07-25 05:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 211842,
+  "null_cells": 211842,
+  "cells": 11088000,
+  "null_cols": {
+   "P1_B4002": 120366,
+   "P1_PCV02D": 47,
+   "P1_PP04SP": 91429
+  },
+  "null_col_count": 3,
+  "label_cols": {
+   "Attack": {
+    "pos": 0,
+    "rows": 126000,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\train4.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 86401,
+  "first": "2021-07-26 12:00:00",
+  "last": "2021-07-27 12:00:00",
+  "ts_valid": 86401,
+  "tmin": "2021-07-26 12:00:00",
+  "tmax": "2021-07-27 12:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 2075,
+  "null_cells": 2075,
+  "cells": 7603288,
+  "null_cols": {
+   "P4_HT_PS": 2075
+  },
+  "null_col_count": 1,
+  "label_cols": {
+   "Attack": {
+    "pos": 0,
+    "rows": 86401,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\train5.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 237600,
+  "first": "2021-08-02 15:00:01",
+  "last": "2021-08-05 09:00:00",
+  "ts_valid": 237600,
+  "tmin": "2021-08-02 15:00:01",
+  "tmax": "2021-08-05 09:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 118548,
+  "null_cells": 118548,
+  "cells": 20908800,
+  "null_cols": {
+   "P1_PCV02D": 2,
+   "P4_HT_PS": 118546
+  },
+  "null_col_count": 2,
+  "label_cols": {
+   "Attack": {
+    "pos": 0,
+    "rows": 237600,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-22.04\\train6.csv",
+  "sep": ",",
+  "ncols": 88,
+  "nrows": 259200,
+  "first": "2021-08-06 09:00:01",
+  "last": "2021-08-09 09:00:00",
+  "ts_valid": 259200,
+  "tmin": "2021-08-06 09:00:01",
+  "tmax": "2021-08-09 09:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 209167,
+  "null_cells": 209167,
+  "cells": 22809600,
+  "null_cols": {
+   "P1_B4002": 103886,
+   "P1_B4005": 21170,
+   "P1_FCV01D": 82367,
+   "P1_FCV02D": 1744
+  },
+  "null_col_count": 4,
+  "label_cols": {
+   "Attack": {
+    "pos": 0,
+    "rows": 259200,
+    "segments": 0,
+    "pct": 0.0
+   }
+  },
+  "dtypes": {}
+ },
+ {
+  "file": "hai-23.05\\hai-test1.csv",
+  "sep": ",",
+  "ncols": 87,
+  "nrows": 54000,
+  "first": "2022-08-12 16:00:01",
+  "last": "2022-08-13 07:00:00",
+  "ts_valid": 54000,
+  "tmin": "2022-08-12 16:00:01",
+  "tmax": "2022-08-13 07:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 4698000,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "hai-23.05\\hai-test2.csv",
+  "sep": ",",
+  "ncols": 87,
+  "nrows": 230400,
+  "first": "2022-08-17 00:00:01",
+  "last": "2022-08-19 16:00:00",
+  "ts_valid": 230400,
+  "tmin": "2022-08-17 00:00:01",
+  "tmax": "2022-08-19 16:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 20044800,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "hai-23.05\\hai-train1.csv",
+  "sep": ",",
+  "ncols": 87,
+  "nrows": 280800,
+  "first": "2022-08-04 18:00:01",
+  "last": "2022-08-08 00:00:00",
+  "ts_valid": 280800,
+  "tmin": "2022-08-04 18:00:01",
+  "tmax": "2022-08-08 00:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 496384,
+  "null_cells": 496384,
+  "cells": 24429600,
+  "null_cols": {
+   "P1_PCV02D": 224,
+   "P2_ManualSD": 239514,
+   "x1003_18_SETPOINT_OUT": 256646
+  },
+  "null_col_count": 3,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "hai-23.05\\hai-train2.csv",
+  "sep": ",",
+  "ncols": 87,
+  "nrows": 291600,
+  "first": "2022-08-13 07:00:01",
+  "last": "2022-08-16 16:00:00",
+  "ts_valid": 291600,
+  "tmin": "2022-08-13 07:00:01",
+  "tmax": "2022-08-16 16:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 52,
+  "null_cells": 52,
+  "cells": 25369200,
+  "null_cols": {
+   "P1_PCV02D": 52
+  },
+  "null_col_count": 1,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "hai-23.05\\hai-train3.csv",
+  "sep": ",",
+  "ncols": 87,
+  "nrows": 126000,
+  "first": "2022-08-19 16:00:01",
+  "last": "2022-08-21 03:00:00",
+  "ts_valid": 126000,
+  "tmin": "2022-08-19 16:00:01",
+  "tmax": "2022-08-21 03:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 77065,
+  "null_cells": 77065,
+  "cells": 10962000,
+  "null_cols": {
+   "P2_ManualSD": 77065
+  },
+  "null_col_count": 1,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "hai-23.05\\hai-train4.csv",
+  "sep": ",",
+  "ncols": 87,
+  "nrows": 198000,
+  "first": "2022-08-22 17:00:01",
+  "last": "2022-08-25 00:00:00",
+  "ts_valid": 198000,
+  "tmin": "2022-08-22 17:00:01",
+  "tmax": "2022-08-25 00:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 64,
+  "null_cells": 64,
+  "cells": 17226000,
+  "null_cols": {
+   "P1_PCV02D": 64
+  },
+  "null_col_count": 1,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "hai-23.05\\label-test1.csv",
+  "sep": ",",
+  "ncols": 2,
+  "nrows": 54000,
+  "first": "2022-08-12 16:00:01",
+  "last": "2022-08-13 07:00:00",
+  "ts_valid": 54000,
+  "tmin": "2022-08-12 16:00:01",
+  "tmax": "2022-08-13 07:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 108000,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {
+   "label": {
+    "pos": 2981,
+    "rows": 54000,
+    "segments": 14,
+    "pct": 5.5204
+   }
+  },
+  "dtypes": {
+   "timestamp": "String",
+   "label": "Int64"
+  }
+ },
+ {
+  "file": "hai-23.05\\label-test2.csv",
+  "sep": ",",
+  "ncols": 2,
+  "nrows": 230400,
+  "first": "2022-08-17 0:00",
+  "last": "2022-08-19 16:00",
+  "ts_valid": 0,
+  "dups": 230400,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 460800,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {
+   "label": {
+    "pos": 8403,
+    "rows": 230400,
+    "segments": 38,
+    "pct": 3.6471
+   }
+  },
+  "dtypes": {
+   "timestamp": "String",
+   "label": "Int64"
+  }
+ },
+ {
+  "file": "haiend-23.05\\end-test1.csv",
+  "sep": ",",
+  "ncols": 226,
+  "nrows": 54000,
+  "first": "2022-08-12 16:00:00",
+  "last": "2022-08-13 6:59:59",
+  "ts_valid": 54000,
+  "tmin": "2022-08-12 16:00:00",
+  "tmax": "2022-08-13 06:59:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 12204000,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "haiend-23.05\\end-test2.csv",
+  "sep": ",",
+  "ncols": 226,
+  "nrows": 230400,
+  "first": "2022-08-17 0:00:00",
+  "last": "2022-08-19 15:59:59",
+  "ts_valid": 230400,
+  "tmin": "2022-08-17 00:00:00",
+  "tmax": "2022-08-19 15:59:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 52070400,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "haiend-23.05\\end-train1.csv",
+  "sep": ",",
+  "ncols": 226,
+  "nrows": 280800,
+  "first": "2022-08-04 18:00:00",
+  "last": "2022-08-07 23:59:59",
+  "ts_valid": 280800,
+  "tmin": "2022-08-04 18:00:00",
+  "tmax": "2022-08-07 23:59:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 256869,
+  "null_cells": 256869,
+  "cells": 63460800,
+  "null_cols": {
+   "1003.18-OUT": 256645,
+   "DM-PCV02-D": 224
+  },
+  "null_col_count": 2,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "haiend-23.05\\end-train2.csv",
+  "sep": ",",
+  "ncols": 226,
+  "nrows": 291600,
+  "first": "2022-08-13 7:00:00",
+  "last": "2022-08-16 15:59:59",
+  "ts_valid": 291600,
+  "tmin": "2022-08-13 07:00:00",
+  "tmax": "2022-08-16 15:59:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 52,
+  "null_cells": 52,
+  "cells": 65901600,
+  "null_cols": {
+   "DM-PCV02-D": 52
+  },
+  "null_col_count": 1,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "haiend-23.05\\end-train3.csv",
+  "sep": ",",
+  "ncols": 226,
+  "nrows": 126000,
+  "first": "2022-08-19 16:00:00",
+  "last": "2022-08-21 2:59:59",
+  "ts_valid": 126000,
+  "tmin": "2022-08-19 16:00:00",
+  "tmax": "2022-08-21 02:59:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 28476000,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "haiend-23.05\\end-train4.csv",
+  "sep": ",",
+  "ncols": 226,
+  "nrows": 198000,
+  "first": "2022-08-22 17:00:00",
+  "last": "2022-08-24 23:59:59",
+  "ts_valid": 198000,
+  "tmin": "2022-08-22 17:00:00",
+  "tmax": "2022-08-24 23:59:59",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 64,
+  "null_cells": 64,
+  "cells": 44748000,
+  "null_cols": {
+   "DM-PCV02-D": 64
+  },
+  "null_col_count": 1,
+  "label_cols": {},
+  "dtypes": {}
+ },
+ {
+  "file": "haiend-23.05\\label-test1.csv",
+  "sep": ",",
+  "ncols": 2,
+  "nrows": 54000,
+  "first": "2022-08-12 16:00:01",
+  "last": "2022-08-13 07:00:00",
+  "ts_valid": 54000,
+  "tmin": "2022-08-12 16:00:01",
+  "tmax": "2022-08-13 07:00:00",
+  "dt_median_s": 1.0,
+  "dt_max_s": 1.0,
+  "gaps_gt_2x": 0,
+  "dups": 0,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 108000,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {
+   "label": {
+    "pos": 2981,
+    "rows": 54000,
+    "segments": 14,
+    "pct": 5.5204
+   }
+  },
+  "dtypes": {
+   "timestamp": "String",
+   "label": "Int64"
+  }
+ },
+ {
+  "file": "haiend-23.05\\label-test2.csv",
+  "sep": ",",
+  "ncols": 2,
+  "nrows": 230400,
+  "first": "2022-08-17 0:00",
+  "last": "2022-08-19 16:00",
+  "ts_valid": 0,
+  "dups": 230400,
+  "null_total": 0,
+  "null_cells": 0,
+  "cells": 460800,
+  "null_cols": {},
+  "null_col_count": 0,
+  "label_cols": {
+   "label": {
+    "pos": 8403,
+    "rows": 230400,
+    "segments": 38,
+    "pct": 3.6471
+   }
+  },
+  "dtypes": {
+   "timestamp": "String",
+   "label": "Int64"
+  }
+ }
+]

@@ -1,0 +1,27 @@
+01_2026_multisource/
+02_AquaSense/
+03_BATADAL/
+04_BattLeDIM/
+05_GECCO/
+06_LeakageRepairs/
+07_LeakDB/
+08_SWaT/
+09_WADI/
+10_WDSEventDB/
+runs
+repro_anomaly_transformer/data/
+repro_anomaly_transformer/runs/
+.benchmark_cache/
+_old_results_csv/
+logs/
+SWaT_Daily_Channel_Plots/
+_repos/
+
+# 大体积二进制/模型产物，禁止入库
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl
+__pycache__/
+*.py[cod]
