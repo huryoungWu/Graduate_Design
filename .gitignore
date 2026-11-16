@@ -1,13 +1,12 @@
-01_2026_multisource/
-02_AquaSense/
+01_PSM/
+02_SML/
 03_BATADAL/
 04_BattLeDIM/
-05_GECCO/
-06_LeakageRepairs/
+05_SMAP_MSL
 07_LeakDB/
 08_SWaT/
 09_WADI/
-10_WDSEventDB/
+
 runs
 repro_anomaly_transformer/data/
 repro_anomaly_transformer/runs/
