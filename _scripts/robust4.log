@@ -1,0 +1,3 @@
+[robust] device=cuda
+
+[wadi] train=(784571, 98) val=(34560, 98) test=(138241, 98)
