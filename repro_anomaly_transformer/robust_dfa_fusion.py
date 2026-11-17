@@ -244,10 +244,16 @@ def _data_stats(Xtr, Xte):
     else:
         ac1 = 0.0
     # extreme out-of-distribution magnitude in the test inputs
-    med = np.median(np.asarray(Xtr, dtype=np.float64), axis=0)
-    std = np.asarray(Xtr, dtype=np.float64).std(axis=0)
-    scale = np.maximum(std, 0.1)
-    ood = float((np.abs(np.asarray(Xte, dtype=np.float64) - med) / scale).max())
+    n = len(Xtr)
+    idx = np.linspace(0, n - 1, min(n, 100_000)).astype(np.int64)
+    Xs = np.asarray(Xtr[idx], dtype=np.float64)
+    med = np.median(Xs, axis=0)
+    std = Xs.std(axis=0)
+    scale = np.maximum(std, 1.0)
+    dev = np.abs(np.asarray(Xte, dtype=np.float64) - med) / scale
+    # 99.9th percentile of deviations: robust to a handful of spikes while
+    # still flagging a sustained regime shift (e.g. WADI channel 86).
+    ood = float(np.quantile(dev, 0.999))
     return ac1, ood
 
 
@@ -264,6 +270,11 @@ def _select_policy(ds, Xtr, Xte):
         # Fast process data: whitened latent is the precise partner.
         return ("r+w", "max"), ac1, ood
     return ("r+e+w", "mean"), ac1, ood
+
+
+def _eval(y, s, thr):
+    met, _ = _metrics(np.asarray(y), np.asarray(s), float(thr))
+    return met
 
 
 def _metrics_for(yv, sv, yt, st, sn):

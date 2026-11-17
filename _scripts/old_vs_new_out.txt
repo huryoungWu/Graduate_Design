@@ -1,0 +1,78 @@
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\OLD_VS_NEW_FUSION.csv
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\OLD_VS_NEW_FUSION.md
+         dataset           kind           method        P        R       F1    PA_F1      AUC
+         batadal        OLD-DFA   tcn_raw_mean_z 0.699422 0.547511 0.614213 0.894737 0.863437
+         batadal NEW-DFA-policy            r+e+w 0.673367 0.606335 0.638095 0.871795 0.887001
+         batadal   NEW-DFA-best            r+e+w 0.696517 0.633484 0.663507 0.878728 0.894373
+         batadal        BEST-FC     FC-ModernTCN 0.651316 0.447964 0.530831 0.542553 0.886072
+         batadal        BEST-RC          RC-USAD 0.818182 0.407240 0.543807 0.767263 0.778763
+  battledim_2018        OLD-DFA        raw_copod 0.001364 0.030303 0.002611 0.007812 0.424743
+  battledim_2018 NEW-DFA-policy            r+e+w 0.000000 0.000000 0.000000 0.000000 0.412216
+  battledim_2018   NEW-DFA-best            r+e+w 0.000000 0.000000 0.000000 0.000000 0.425724
+  battledim_2019        OLD-DFA        raw_copod 0.005550 0.066667 0.010248 0.010248 0.576028
+  battledim_2019 NEW-DFA-policy            r+e+w 0.003783 0.122222 0.007338 0.008003 0.578899
+  battledim_2019   NEW-DFA-best            r+e+w 0.010127 0.066667 0.017582 0.017582 0.569358
+leakdb_hanoi1000        OLD-DFA   tcn_raw_mean_z 0.625000 0.075758 0.135135 0.977778 0.781304
+leakdb_hanoi1000 NEW-DFA-policy            r+e+w 0.061139 1.000000 0.115234 0.115234 0.758884
+leakdb_hanoi1000   NEW-DFA-best            r+e+w 0.062708 1.000000 0.118015 0.118015 0.996046
+leakdb_hanoi1000        BEST-FC     FC-ModernTCN 0.061682 1.000000 0.116197 0.116197 0.999178
+leakdb_hanoi1000        BEST-RC          RC-USAD 0.923077 0.636364 0.753363 0.974170 0.996769
+ leakdb_hanoi500        OLD-DFA tcn_whiten_max_z 0.445455 1.000000 0.616352 0.616352 1.000000
+ leakdb_hanoi500 NEW-DFA-policy            r+e+w 0.435556 1.000000 0.606811 0.606811 0.869450
+ leakdb_hanoi500   NEW-DFA-best            r+e+w 0.435556 1.000000 0.606811 0.606811 0.869450
+ leakdb_hanoi500        BEST-FC          FC-LSTM 0.427948 1.000000 0.599388 0.599388 0.986602
+ leakdb_hanoi500        BEST-RC           RC-VAE 0.457944 1.000000 0.628205 0.628205 0.991110
+     leakdb_net1        OLD-DFA tcn_whiten_max_z 0.940972 0.689567 0.795888 0.978829 0.923915
+     leakdb_net1 NEW-DFA-policy            r+e+w 0.792398 0.689567 0.737415 0.917153 0.944537
+     leakdb_net1   NEW-DFA-best            r+e+w 0.792398 0.689567 0.737415 0.917153 0.944537
+     leakdb_net1        BEST-FC     FC-ModernTCN 0.643357 0.702290 0.671533 0.837061 0.927040
+     leakdb_net1        BEST-RC            RC-AE 0.796875 0.778626 0.787645 0.909722 0.951598
+             psm        OLD-DFA tcn_whiten_max_z 0.904987 0.088531 0.161284 0.503072 0.628133
+             psm NEW-DFA-policy            r+e+w 0.912558 0.041260 0.078951 0.897052 0.802546
+             psm   NEW-DFA-best            r+e+w 0.764179 0.139973 0.236607 0.905935 0.787455
+             psm        BEST-FC     FC-ModernTCN 0.661986 0.408479 0.505215 0.857523 0.803415
+             psm        BEST-RC          RC-USAD 0.799946 0.250410 0.381422 0.916831 0.773993
+        smap_A-1        OLD-DFA        raw_copod 0.000000 0.000000 0.000000 0.000000      NaN
+        smap_A-1 NEW-DFA-policy                r 0.000000 0.000000 0.000000 0.000000      NaN
+        smap_A-1   NEW-DFA-best                r 0.000000 0.000000 0.000000 0.000000      NaN
+        smap_A-2        OLD-DFA        raw_copod 0.000000 0.000000 0.000000 0.000000      NaN
+        smap_A-2 NEW-DFA-policy                r 0.000000 0.000000 0.000000 0.000000      NaN
+        smap_A-2   NEW-DFA-best                r 0.000000 0.000000 0.000000 0.000000      NaN
+        smap_P-1        OLD-DFA   tcn_raw_mean_z 0.125874 0.031469 0.050350 0.901497 0.497017
+        smap_P-1 NEW-DFA-policy                r 0.110092 0.020979 0.035242 0.921837 0.474929
+        smap_P-1   NEW-DFA-best                r 0.110092 0.020979 0.035242 0.921837 0.474929
+        smap_S-1        OLD-DFA        raw_copod 0.000000 0.000000 0.000000 0.000000 0.585028
+        smap_S-1 NEW-DFA-policy                r 0.000000 0.000000 0.000000 0.000000 0.585174
+        smap_S-1   NEW-DFA-best                r 0.000000 0.000000 0.000000 0.000000 0.585174
+ sml_machine-1-1        OLD-DFA tcn_whiten_max_z 0.904040 0.431325 0.584013 0.977621 0.950377
+ sml_machine-1-1 NEW-DFA-policy            r+e+w 0.795044 0.715060 0.752934 0.903514 0.933111
+ sml_machine-1-1   NEW-DFA-best            r+e+w 0.795044 0.715060 0.752934 0.903514 0.933111
+ sml_machine-1-1        BEST-FC          FC-LSTM 0.509698 0.854819 0.638614 0.708645 0.901470
+ sml_machine-1-1        BEST-RC           RC-VAE 0.329132 0.676506 0.442823 0.591906 0.758957
+ sml_machine-1-2        OLD-DFA   tcn_raw_mean_z 0.677419 0.408127 0.509372 0.899023 0.906501
+ sml_machine-1-2 NEW-DFA-policy            r+e+w 0.492754 0.300353 0.373216 0.853828 0.919633
+ sml_machine-1-2   NEW-DFA-best            r+e+w 0.567647 0.340989 0.426049 0.872727 0.917604
+ sml_machine-1-2        BEST-FC          FC-LSTM 0.556150 0.367491 0.442553 0.781016 0.891801
+ sml_machine-1-2        BEST-RC          RC-USAD 0.696049 0.404594 0.511732 0.906404 0.922817
+ sml_machine-2-1        OLD-DFA tcn_whiten_max_z 0.765328 0.312608 0.443899 0.946013 0.773115
+ sml_machine-2-1 NEW-DFA-policy            r+e+w 0.651111 0.253022 0.364428 0.876548 0.782437
+ sml_machine-2-1   NEW-DFA-best            r+e+w 0.657331 0.344560 0.452125 0.862141 0.786047
+ sml_machine-2-1        BEST-FC          FC-LSTM 0.630021 0.257340 0.365420 0.921521 0.724060
+ sml_machine-2-1        BEST-RC          RC-USAD 0.580781 0.474957 0.522565 0.829507 0.885209
+            swat        OLD-DFA tcn_whiten_max_z 0.954130 0.689039 0.800201 0.886895 0.882009
+            swat NEW-DFA-policy              r+w 0.965982 0.668222 0.789976 0.885921 0.887307
+            swat   NEW-DFA-best              r+w 0.971673 0.674718 0.796415 0.887787 0.883966
+            swat        BEST-FC   FC-Transformer 0.844857 0.730652 0.783615 0.910845 0.881246
+            swat        BEST-RC           RC-VAE 0.769287 0.734413 0.751446 0.881042 0.880239
+            wadi        OLD-DFA        raw_copod 0.459257 0.221023 0.298426 0.584940 0.792005
+            wadi NEW-DFA-policy              r+e 0.465960 0.362107 0.407521 0.643683 0.788738
+            wadi   NEW-DFA-best              r+e 0.478343 0.383107 0.425461 0.689544 0.783244
+
+MEANS (9 datasets)
+                     P       R      F1   PA_F1     AUC
+kind                                                  
+OLD-DFA         0.7685  0.4714  0.5178  0.8534  0.8565
+NEW-DFA-policy  0.6422  0.5860  0.4952  0.7698  0.8650
+NEW-DFA-best    0.6381  0.6154  0.5322  0.7725  0.8903
+BEST-FC         0.5541  0.6410  0.5170  0.6972  0.8890
+BEST-RC         0.6857  0.5959  0.5914  0.8228  0.8822

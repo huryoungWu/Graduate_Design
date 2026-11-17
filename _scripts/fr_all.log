@@ -1,0 +1,19 @@
+START batadal 18:07:07
+END batadal exit=0 18:07:51
+START leakdb_hanoi500 18:07:51
+END leakdb_hanoi500 exit=0 18:10:10
+START leakdb_hanoi1000 18:10:10
+END leakdb_hanoi1000 exit=0 18:12:29
+START leakdb_net1 18:12:29
+END leakdb_net1 exit=0 18:14:03
+START psm 18:14:03
+END psm exit=0 18:23:57
+START sml_machine-1-1 18:23:57
+END sml_machine-1-1 exit=0 18:26:16
+START sml_machine-1-2 18:26:16
+END sml_machine-1-2 exit=0 18:28:15
+START sml_machine-2-1 18:28:15
+END sml_machine-2-1 exit=0 18:30:11
+START swat 18:30:11
+END swat exit=0 18:48:01
+START wadi 18:48:02

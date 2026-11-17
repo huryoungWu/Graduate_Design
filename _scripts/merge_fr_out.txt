@@ -1,0 +1,119 @@
+C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\_scripts\merge_forecast_recon.py:137: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for ds, sub in df.groupby("dataset"):
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\FORECAST_RECON_COMPARE.csv
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\FORECAST_RECON_COMPARE.md
+         dataset         family         method  Normal99_Precision  Normal99_Recall  Normal99_F1  Normal99_AUC
+         batadal       forecast        FC-LSTM            0.642857         0.447964     0.528000      0.937350
+         batadal       forecast        FC-MICN            0.653333         0.443439     0.528302      0.897679
+         batadal       forecast   FC-ModernTCN            0.651316         0.447964     0.530831      0.886072
+         batadal       forecast         FC-TCN            0.644737         0.443439     0.525469      0.885335
+         batadal       forecast FC-Transformer            0.642857         0.447964     0.528000      0.878576
+         batadal reconstruction          RC-AE            0.664430         0.447964     0.535135      0.937993
+         batadal reconstruction     RC-LSTMVAE            0.660000         0.447964     0.533693      0.815122
+         batadal reconstruction        RC-USAD            0.818182         0.407240     0.543807      0.778763
+         batadal reconstruction         RC-VAE            0.664430         0.447964     0.535135      0.932253
+         batadal  robust fusion       DFA-MICN            0.719577         0.615385     0.663415      0.890644
+         batadal  robust fusion  DFA-ModernTCN            0.719577         0.615385     0.663415      0.918404
+         batadal  robust fusion     DFA-SE-TCN            0.696517         0.633484     0.663507      0.894373
+         batadal  robust fusion        DFA-TCN            0.673367         0.606335     0.638095      0.887001
+ leakdb_hanoi500       forecast        FC-LSTM            0.427948         1.000000     0.599388      0.986602
+ leakdb_hanoi500       forecast        FC-MICN            0.427948         1.000000     0.599388      0.982318
+ leakdb_hanoi500       forecast   FC-ModernTCN            0.427948         1.000000     0.599388      1.000000
+ leakdb_hanoi500       forecast         FC-TCN            0.427948         1.000000     0.599388      0.997741
+ leakdb_hanoi500       forecast FC-Transformer            0.427948         1.000000     0.599388      0.984265
+ leakdb_hanoi500 reconstruction          RC-AE            0.426087         1.000000     0.597561      0.991574
+ leakdb_hanoi500 reconstruction        RC-USAD            0.597561         0.500000     0.544444      0.779375
+ leakdb_hanoi500 reconstruction         RC-VAE            0.457944         1.000000     0.628205      0.991110
+ leakdb_hanoi500  robust fusion       DFA-MICN            0.427948         1.000000     0.599388      0.711443
+ leakdb_hanoi500  robust fusion  DFA-ModernTCN            0.427948         1.000000     0.599388      0.711443
+ leakdb_hanoi500  robust fusion     DFA-SE-TCN            0.427948         1.000000     0.599388      0.540777
+ leakdb_hanoi500  robust fusion        DFA-TCN            0.435556         1.000000     0.606811      0.869450
+leakdb_hanoi1000       forecast        FC-LSTM            0.061139         1.000000     0.115234      0.994715
+leakdb_hanoi1000       forecast        FC-MICN            0.061253         1.000000     0.115435      0.993889
+leakdb_hanoi1000       forecast   FC-ModernTCN            0.061682         1.000000     0.116197      0.999178
+leakdb_hanoi1000       forecast         FC-TCN            0.061139         1.000000     0.115234      0.998819
+leakdb_hanoi1000       forecast FC-Transformer            0.061139         1.000000     0.115234      0.993209
+leakdb_hanoi1000 reconstruction          RC-AE            0.064738         1.000000     0.121603      0.997206
+leakdb_hanoi1000 reconstruction        RC-USAD            0.923077         0.636364     0.753363      0.996769
+leakdb_hanoi1000 reconstruction         RC-VAE            0.072368         1.000000     0.134969      0.997691
+leakdb_hanoi1000  robust fusion       DFA-MICN            0.062205         1.000000     0.117125      0.995493
+leakdb_hanoi1000  robust fusion  DFA-ModernTCN            0.062708         1.000000     0.118015      0.996046
+leakdb_hanoi1000  robust fusion     DFA-SE-TCN            0.061139         1.000000     0.115234      0.810186
+leakdb_hanoi1000  robust fusion        DFA-TCN            0.061139         1.000000     0.115234      0.758884
+     leakdb_net1       forecast        FC-LSTM            0.092315         0.926209     0.167897      0.925496
+     leakdb_net1       forecast        FC-MICN            0.324182         0.781170     0.458209      0.909957
+     leakdb_net1       forecast   FC-ModernTCN            0.643357         0.702290     0.671533      0.927040
+     leakdb_net1       forecast         FC-TCN            0.389594         0.781170     0.519898      0.920446
+     leakdb_net1       forecast FC-Transformer            0.101989         0.926209     0.183746      0.929162
+     leakdb_net1 reconstruction          RC-AE            0.796875         0.778626     0.787645      0.951598
+     leakdb_net1 reconstruction     RC-LSTMVAE            0.866221         0.659033     0.748555      0.919187
+     leakdb_net1 reconstruction        RC-USAD            0.686076         0.689567     0.687817      0.855416
+     leakdb_net1 reconstruction         RC-VAE            0.826866         0.704835     0.760989      0.952017
+     leakdb_net1  robust fusion       DFA-MICN            0.756374         0.679389     0.715818      0.923196
+     leakdb_net1  robust fusion  DFA-ModernTCN            0.810398         0.674300     0.736111      0.947910
+     leakdb_net1  robust fusion     DFA-SE-TCN            0.753463         0.692112     0.721485      0.908870
+     leakdb_net1  robust fusion        DFA-TCN            0.792398         0.689567     0.737415      0.944537
+             psm       forecast        FC-LSTM            0.757447         0.022460     0.043626      0.757135
+             psm       forecast        FC-MICN            0.919717         0.163821     0.278105      0.827610
+             psm       forecast   FC-ModernTCN            0.661986         0.408479     0.505215      0.803415
+             psm       forecast         FC-TCN            0.760310         0.243481     0.368844      0.839407
+             psm       forecast FC-Transformer            0.733945         0.020188     0.039296      0.691917
+             psm reconstruction          RC-AE            0.864706         0.055642     0.104556      0.817367
+             psm reconstruction     RC-LSTMVAE            1.000000         0.000883     0.001765      0.717011
+             psm reconstruction        RC-USAD            0.799946         0.250410     0.381422      0.773993
+             psm reconstruction         RC-VAE            0.864416         0.067839     0.125804      0.818955
+             psm  robust fusion       DFA-MICN            0.934334         0.041891     0.080187      0.780273
+             psm  robust fusion  DFA-ModernTCN            0.764179         0.139973     0.236607      0.787455
+             psm  robust fusion     DFA-SE-TCN            0.877926         0.080459     0.147409      0.775573
+             psm  robust fusion        DFA-TCN            0.912558         0.041260     0.078951      0.802546
+ sml_machine-1-1       forecast        FC-LSTM            0.509698         0.854819     0.638614      0.901470
+ sml_machine-1-1       forecast        FC-MICN            0.173281         0.746988     0.281307      0.708902
+ sml_machine-1-1       forecast   FC-ModernTCN            0.152715         0.775904     0.255201      0.688100
+ sml_machine-1-1       forecast         FC-TCN            0.166101         0.707229     0.269019      0.685036
+ sml_machine-1-1       forecast FC-Transformer            0.464175         0.905422     0.613720      0.932431
+ sml_machine-1-1 reconstruction          RC-AE            0.257508         0.692169     0.375368      0.743445
+ sml_machine-1-1 reconstruction     RC-LSTMVAE            0.398019         0.411446     0.404621      0.880446
+ sml_machine-1-1 reconstruction        RC-USAD            0.214588         0.948193     0.349972      0.901809
+ sml_machine-1-1 reconstruction         RC-VAE            0.329132         0.676506     0.442823      0.758957
+ sml_machine-1-1  robust fusion       DFA-MICN            0.711795         0.737952     0.724638      0.932509
+ sml_machine-1-1  robust fusion  DFA-ModernTCN            0.617290         0.795783     0.695263      0.941050
+ sml_machine-1-1  robust fusion     DFA-SE-TCN            0.594860         0.766867     0.670000      0.920358
+ sml_machine-1-1  robust fusion        DFA-TCN            0.795044         0.715060     0.752934      0.933111
+ sml_machine-1-2       forecast        FC-LSTM            0.556150         0.367491     0.442553      0.891801
+ sml_machine-1-2       forecast        FC-MICN            0.390935         0.243816     0.300326      0.854527
+ sml_machine-1-2       forecast   FC-ModernTCN            0.518732         0.318021     0.394304      0.872053
+ sml_machine-1-2       forecast         FC-TCN            0.451327         0.270318     0.338122      0.861577
+ sml_machine-1-2       forecast FC-Transformer            0.536082         0.367491     0.436059      0.890969
+ sml_machine-1-2 reconstruction          RC-AE            0.398936         0.265018     0.318471      0.861397
+ sml_machine-1-2 reconstruction     RC-LSTMVAE            0.651429         0.402827     0.497817      0.913692
+ sml_machine-1-2 reconstruction        RC-USAD            0.696049         0.404594     0.511732      0.922817
+ sml_machine-1-2 reconstruction         RC-VAE            0.390957         0.259717     0.312102      0.872636
+ sml_machine-1-2  robust fusion       DFA-MICN            0.500000         0.282686     0.361174      0.917990
+ sml_machine-1-2  robust fusion  DFA-ModernTCN            0.505587         0.319788     0.391775      0.919404
+ sml_machine-1-2  robust fusion     DFA-SE-TCN            0.567647         0.340989     0.426049      0.917604
+ sml_machine-1-2  robust fusion        DFA-TCN            0.492754         0.300353     0.373216      0.919633
+ sml_machine-2-1       forecast        FC-LSTM            0.630021         0.257340     0.365420      0.724060
+ sml_machine-2-1       forecast        FC-MICN            0.572430         0.211572     0.308953      0.708160
+ sml_machine-2-1       forecast   FC-ModernTCN            0.651765         0.239206     0.349968      0.732817
+ sml_machine-2-1       forecast         FC-TCN            0.607710         0.231434     0.335210      0.734466
+ sml_machine-2-1       forecast FC-Transformer            0.699690         0.195164     0.305199      0.728270
+ sml_machine-2-1 reconstruction          RC-AE            0.653846         0.205527     0.312746      0.760337
+ sml_machine-2-1 reconstruction     RC-LSTMVAE            0.702290         0.158895     0.259155      0.752360
+ sml_machine-2-1 reconstruction        RC-USAD            0.580781         0.474957     0.522565      0.885209
+ sml_machine-2-1 reconstruction         RC-VAE            0.600000         0.209845     0.310940      0.761228
+ sml_machine-2-1  robust fusion       DFA-MICN            0.711640         0.232297     0.350260      0.782865
+ sml_machine-2-1  robust fusion  DFA-ModernTCN            0.747768         0.289292     0.417186      0.792677
+ sml_machine-2-1  robust fusion     DFA-SE-TCN            0.657331         0.344560     0.452125      0.786047
+ sml_machine-2-1  robust fusion        DFA-TCN            0.651111         0.253022     0.364428      0.782437
+            swat       forecast        FC-LSTM            0.766781         0.726267     0.745974      0.880163
+            swat       forecast        FC-MICN            0.736067         0.752293     0.744092      0.880923
+            swat       forecast   FC-ModernTCN            0.769055         0.730973     0.749531      0.874326
+            swat       forecast         FC-TCN            0.393512         0.823874     0.532623      0.881660
+            swat       forecast FC-Transformer            0.844857         0.730652     0.783615      0.881246
+            swat reconstruction          RC-AE            0.739806         0.737812     0.738807      0.884462
+            swat reconstruction        RC-USAD            0.701808         0.672265     0.686719      0.865822
+            swat reconstruction         RC-VAE            0.769287         0.734413     0.751446      0.880239
+            swat  robust fusion       DFA-MICN            0.971673         0.674718     0.796415      0.883966
+            swat  robust fusion  DFA-ModernTCN            0.975763         0.666392     0.791936      0.896403
+            swat  robust fusion     DFA-SE-TCN            0.966290         0.672808     0.793275      0.886546
+            swat  robust fusion        DFA-TCN            0.965982         0.668222     0.789976      0.887307
