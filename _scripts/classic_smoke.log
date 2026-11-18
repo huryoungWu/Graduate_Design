@@ -1,0 +1,8 @@
+  sml_machine-1-1 anomaly_transformer 0.4s F1=0.314
+  sml_machine-1-1 dcdetector 0.5s F1=0.529
+  sml_machine-1-1 sbt 0.2s F1=0.011
+[cache] sml_machine-1-1 done 6.2s
+  A-5 anomaly_transformer 0.0s eF1=0.000
+  A-5 dcdetector 0.1s eF1=0.000
+  A-5 sbt 0.1s eF1=0.000
+[channel] A-5 done 0.9s

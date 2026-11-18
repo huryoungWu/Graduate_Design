@@ -1,0 +1,103 @@
+[variants] channels=81 device=cuda
+  A-1: 9 rows 3.6s
+  A-2: 9 rows 1.9s
+  A-3: 9 rows 2.0s
+  A-4: 9 rows 2.0s
+  A-5: 9 rows 0.9s
+  A-6: 9 rows 0.9s
+  A-7: 9 rows 2.0s
+  A-8: 9 rows 1.1s
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+  A-9: 9 rows 1.1s
+  B-1: 9 rows 1.7s
+  C-1: 9 rows 1.3s
+  C-2: 9 rows 0.7s
+  D-1: 9 rows 1.9s
+  D-11: 9 rows 1.7s
+  [skip] D-12
+  [skip] D-13
+  D-14: 9 rows 1.9s
+  D-15: 9 rows 1.2s
+  D-16: 9 rows 1.0s
+  D-2: 9 rows 1.9s
+  D-3: 9 rows 2.0s
+  D-4: 9 rows 2.0s
+  D-5: 9 rows 1.8s
+  D-6: 9 rows 1.8s
+  D-7: 9 rows 1.8s
+  D-8: 9 rows 1.7s
+  D-9: 9 rows 1.6s
+  E-1: 9 rows 1.9s
+  E-10: 9 rows 1.8s
+  E-11: 9 rows 1.9s
+  E-12: 9 rows 1.8s
+  E-13: 9 rows 1.9s
+  E-2: 9 rows 1.8s
+  E-3: 9 rows 1.9s
+  E-4: 9 rows 1.9s
+  E-5: 9 rows 1.8s
+  E-6: 9 rows 1.8s
+  E-7: 9 rows 1.9s
+  E-8: 9 rows 2.0s
+  E-9: 9 rows 2.0s
+  F-1: 9 rows 1.9s
+  F-2: 9 rows 1.9s
+  F-3: 9 rows 1.9s
+  F-4: 9 rows 1.3s
+  F-5: 9 rows 1.5s
+  F-7: 9 rows 1.5s
+  F-8: 9 rows 1.7s
+  G-1: 9 rows 1.9s
+  G-2: 9 rows 1.7s
+  G-3: 9 rows 1.7s
+  G-4: 9 rows 1.6s
+  G-6: 9 rows 1.8s
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+  G-7: 9 rows 1.6s
+  M-1: 9 rows 1.2s
+  M-2: 9 rows 1.2s
+  M-3: 9 rows 1.1s
+  M-4: 9 rows 1.1s
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+  M-5: 9 rows 1.1s
+  M-6: 9 rows 1.0s
+  M-7: 9 rows 1.0s
+  P-1: 9 rows 1.9s
+  P-10: 9 rows 2.3s
+  P-11: 9 rows 1.9s
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+  P-14: 9 rows 1.6s
+  P-15: 9 rows 1.8s
+  P-2: 9 rows 1.8s
+  P-3: 9 rows 1.9s
+  P-4: 9 rows 1.7s
+  P-7: 9 rows 1.7s
+  R-1: 9 rows 1.6s
+  S-1: 9 rows 1.7s
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+  S-2: 9 rows 0.7s
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+  T-1: 9 rows 1.7s
+  T-12: 9 rows 0.8s
+  T-13: 9 rows 0.8s
+  T-2: 9 rows 1.9s
+  T-3: 9 rows 1.9s
+  T-4: 9 rows 1.3s
+  T-5: 9 rows 1.3s
+D:\Python\lib\site-packages\pyod\models\copod.py:22: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return np.nan_to_num(skew_sp(X, axis=axis))
+  T-8: 9 rows 0.7s
+  T-9: 9 rows 0.6s
+[variants] done

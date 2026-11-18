@@ -1,0 +1,20 @@
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\SMAP_MSL_EVENT.csv
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\SMAP_MSL_EVENT.md
+channels: 79
+best model counts:
+model
+¡ª (no detection)             28
+USAD-recon                   15
+raw-COPOD                    15
+TCN-forecast                  8
+AE-recon                      7
+TCN-forecast / AE-recon       5
+TCN-forecast / USAD-recon     1
+
+means:
+              event_recall  event_precision  event_f1  median_delay  fa_per_1000
+model                                                                           
+AE-recon             0.405            0.133     0.179       154.621        2.161
+TCN-forecast         0.397            0.159     0.201       159.818        1.959
+USAD-recon           0.403            0.136     0.167        86.543        2.951
+raw-COPOD            0.451            0.147     0.184        89.865        2.247

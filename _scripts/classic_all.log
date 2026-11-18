@@ -1,0 +1,382 @@
+  swat anomaly_transformer 8.8s F1=0.763
+  swat dcdetector 9.0s F1=0.805
+  swat sbt 12.5s F1=0.025
+[cache] swat done 103.8s
+  wadi anomaly_transformer 10.0s F1=0.006
+  wadi dcdetector 8.1s F1=0.115
+  wadi sbt 12.0s F1=0.018
+[cache] wadi done 115.0s
+  psm anomaly_transformer 7.8s F1=0.017
+  psm dcdetector 7.5s F1=0.308
+  psm sbt 11.6s F1=0.029
+[cache] psm done 41.6s
+  sml_machine-1-1 anomaly_transformer 7.8s F1=0.422
+  sml_machine-1-1 dcdetector 7.7s F1=0.685
+  sml_machine-1-1 sbt 11.6s F1=0.000
+[cache] sml_machine-1-1 done 31.1s
+  sml_machine-1-2 anomaly_transformer 7.2s F1=0.294
+  sml_machine-1-2 dcdetector 7.6s F1=0.391
+  sml_machine-1-2 sbt 10.7s F1=0.000
+[cache] sml_machine-1-2 done 29.1s
+  sml_machine-2-1 anomaly_transformer 7.4s F1=0.098
+  sml_machine-2-1 dcdetector 7.6s F1=0.209
+  sml_machine-2-1 sbt 10.8s F1=0.000
+[cache] sml_machine-2-1 done 29.2s
+  batadal anomaly_transformer 2.7s F1=0.414
+  batadal dcdetector 7.5s F1=0.181
+  batadal sbt 4.0s F1=0.044
+[cache] batadal done 15.2s
+  leakdb_hanoi500 anomaly_transformer 5.7s F1=0.000
+  leakdb_hanoi500 dcdetector 11.5s F1=0.598
+  leakdb_hanoi500 sbt 9.4s F1=0.322
+[cache] leakdb_hanoi500 done 30.1s
+  leakdb_hanoi1000 anomaly_transformer 6.8s F1=0.019
+  leakdb_hanoi1000 dcdetector 11.1s F1=0.115
+  leakdb_hanoi1000 sbt 9.6s F1=0.000
+[cache] leakdb_hanoi1000 done 30.9s
+  leakdb_net1 anomaly_transformer 6.9s F1=0.734
+  leakdb_net1 dcdetector 11.4s F1=0.091
+  leakdb_net1 sbt 10.3s F1=0.000
+[cache] leakdb_net1 done 31.5s
+  battledim_2018 anomaly_transformer 1.1s F1=0.001
+  battledim_2018 dcdetector 4.0s F1=0.003
+  battledim_2018 sbt 1.2s F1=0.000
+[cache] battledim_2018 done 17.4s
+  battledim_2019 anomaly_transformer 0.9s F1=0.004
+  battledim_2019 dcdetector 3.7s F1=0.004
+  battledim_2019 sbt 1.1s F1=0.000
+[cache] battledim_2019 done 16.7s
+  smap_A-1 anomaly_transformer 1.3s F1=0.000
+  smap_A-1 dcdetector 5.4s F1=0.000
+  smap_A-1 sbt 2.0s F1=0.000
+[cache] smap_A-1 done 9.5s
+  smap_A-2 anomaly_transformer 1.2s F1=0.000
+  smap_A-2 dcdetector 5.1s F1=0.000
+  smap_A-2 sbt 1.8s F1=0.000
+[cache] smap_A-2 done 8.9s
+  smap_P-1 anomaly_transformer 0.4s F1=0.142
+  smap_P-1 dcdetector 1.6s F1=0.058
+  smap_P-1 sbt 0.6s F1=0.000
+[cache] smap_P-1 done 3.4s
+  smap_S-1 anomaly_transformer 1.4s F1=0.000
+  smap_S-1 dcdetector 6.4s F1=0.000
+  smap_S-1 sbt 2.3s F1=0.000
+[cache] smap_S-1 done 10.9s
+  A-1 anomaly_transformer 1.1s eF1=0.286
+  A-1 dcdetector 4.6s eF1=0.333
+  A-1 sbt 1.6s eF1=0.000
+[channel] A-1 done 8.3s
+  A-2 anomaly_transformer 1.0s eF1=0.000
+  A-2 dcdetector 4.2s eF1=0.000
+  A-2 sbt 1.4s eF1=0.000
+[channel] A-2 done 7.5s
+  A-3 anomaly_transformer 0.9s eF1=0.000
+  A-3 dcdetector 4.3s eF1=0.000
+  A-3 sbt 1.4s eF1=0.000
+[channel] A-3 done 7.6s
+  A-4 anomaly_transformer 1.0s eF1=0.000
+  A-4 dcdetector 4.3s eF1=0.000
+  A-4 sbt 1.4s eF1=0.000
+[channel] A-4 done 7.8s
+  A-5 anomaly_transformer 0.3s eF1=0.000
+  A-5 dcdetector 1.0s eF1=0.000
+  A-5 sbt 0.4s eF1=0.000
+[channel] A-5 done 2.2s
+  A-6 anomaly_transformer 0.2s eF1=0.000
+  A-6 dcdetector 0.9s eF1=0.000
+  A-6 sbt 0.4s eF1=0.018
+[channel] A-6 done 2.2s
+  A-7 anomaly_transformer 1.0s eF1=0.000
+  A-7 dcdetector 4.5s eF1=0.000
+  A-7 sbt 1.6s eF1=0.000
+[channel] A-7 done 8.1s
+  A-8 anomaly_transformer 0.3s eF1=0.000
+  A-8 dcdetector 1.1s eF1=0.222
+  A-8 sbt 0.4s eF1=0.000
+[channel] A-8 done 2.7s
+  A-9 anomaly_transformer 0.3s eF1=0.000
+  A-9 dcdetector 1.1s eF1=0.000
+  A-9 sbt 0.4s eF1=0.000
+[channel] A-9 done 2.7s
+  B-1 anomaly_transformer 0.8s eF1=0.000
+  B-1 dcdetector 3.5s eF1=0.000
+  B-1 sbt 1.2s eF1=0.000
+[channel] B-1 done 6.5s
+  C-1 anomaly_transformer 0.8s eF1=0.000
+  C-1 dcdetector 3.2s eF1=0.333
+  C-1 sbt 1.2s eF1=0.000
+[channel] C-1 done 5.7s
+  C-2 anomaly_transformer 0.3s eF1=0.500
+  C-2 dcdetector 1.1s eF1=0.000
+  C-2 sbt 0.4s eF1=0.500
+[channel] C-2 done 2.2s
+  D-1 anomaly_transformer 1.0s eF1=0.000
+  D-1 dcdetector 4.4s eF1=0.250
+  D-1 sbt 1.4s eF1=0.377
+[channel] D-1 done 7.9s
+  D-11 anomaly_transformer 0.9s eF1=0.000
+  D-11 dcdetector 3.9s eF1=0.333
+  D-11 sbt 1.3s eF1=0.000
+[channel] D-11 done 6.9s
+[channel] D-12 done 0.0s
+[channel] D-13 done 0.0s
+  D-14 anomaly_transformer 1.3s eF1=0.000
+  D-14 dcdetector 5.3s eF1=0.118
+  D-14 sbt 1.9s eF1=0.000
+[channel] D-14 done 9.2s
+  D-15 anomaly_transformer 0.7s eF1=0.727
+  D-15 dcdetector 3.2s eF1=0.667
+  D-15 sbt 1.0s eF1=0.600
+[channel] D-15 done 5.5s
+  D-16 anomaly_transformer 0.5s eF1=1.000
+  D-16 dcdetector 2.2s eF1=0.800
+  D-16 sbt 0.7s eF1=0.000
+[channel] D-16 done 4.0s
+  D-2 anomaly_transformer 1.1s eF1=0.500
+  D-2 dcdetector 4.2s eF1=0.600
+  D-2 sbt 1.5s eF1=0.364
+[channel] D-2 done 7.9s
+  D-3 anomaly_transformer 1.0s eF1=0.667
+  D-3 dcdetector 4.3s eF1=0.545
+  D-3 sbt 1.5s eF1=0.762
+[channel] D-3 done 8.0s
+  D-4 anomaly_transformer 1.0s eF1=0.500
+  D-4 dcdetector 4.3s eF1=0.500
+  D-4 sbt 1.5s eF1=0.485
+[channel] D-4 done 7.9s
+  D-5 anomaly_transformer 1.0s eF1=0.000
+  D-5 dcdetector 3.9s eF1=0.000
+  D-5 sbt 1.4s eF1=0.000
+[channel] D-5 done 7.3s
+  D-6 anomaly_transformer 0.9s eF1=0.000
+  D-6 dcdetector 4.0s eF1=0.000
+  D-6 sbt 1.3s eF1=0.000
+[channel] D-6 done 7.2s
+  D-7 anomaly_transformer 0.9s eF1=0.000
+  D-7 dcdetector 3.9s eF1=0.333
+  D-7 sbt 1.3s eF1=0.571
+[channel] D-7 done 7.2s
+  D-8 anomaly_transformer 1.0s eF1=0.000
+  D-8 dcdetector 3.9s eF1=0.000
+  D-8 sbt 1.3s eF1=0.000
+[channel] D-8 done 7.2s
+  D-9 anomaly_transformer 1.0s eF1=0.000
+  D-9 dcdetector 3.9s eF1=0.000
+  D-9 sbt 1.3s eF1=0.000
+[channel] D-9 done 7.1s
+  E-1 anomaly_transformer 1.0s eF1=0.000
+  E-1 dcdetector 4.4s eF1=0.200
+  E-1 sbt 1.5s eF1=0.000
+[channel] E-1 done 7.9s
+  E-10 anomaly_transformer 1.0s eF1=0.000
+  E-10 dcdetector 4.4s eF1=0.074
+  E-10 sbt 1.5s eF1=0.636
+[channel] E-10 done 7.9s
+  E-11 anomaly_transformer 1.0s eF1=0.000
+  E-11 dcdetector 4.4s eF1=0.077
+  E-11 sbt 1.5s eF1=0.600
+[channel] E-11 done 8.0s
+  E-12 anomaly_transformer 1.0s eF1=0.000
+  E-12 dcdetector 4.4s eF1=0.207
+  E-12 sbt 1.5s eF1=0.000
+[channel] E-12 done 7.9s
+  E-13 anomaly_transformer 1.0s eF1=0.000
+  E-13 dcdetector 4.4s eF1=0.000
+  E-13 sbt 1.5s eF1=0.000
+[channel] E-13 done 7.9s
+  E-2 anomaly_transformer 1.0s eF1=0.000
+  E-2 dcdetector 4.3s eF1=0.000
+  E-2 sbt 1.5s eF1=0.933
+[channel] E-2 done 7.9s
+  E-3 anomaly_transformer 1.0s eF1=0.000
+  E-3 dcdetector 4.3s eF1=0.333
+  E-3 sbt 1.5s eF1=0.842
+[channel] E-3 done 7.8s
+  E-4 anomaly_transformer 1.0s eF1=0.000
+  E-4 dcdetector 4.2s eF1=0.000
+  E-4 sbt 1.5s eF1=0.000
+[channel] E-4 done 7.7s
+  E-5 anomaly_transformer 1.0s eF1=0.000
+  E-5 dcdetector 4.4s eF1=0.071
+  E-5 sbt 1.5s eF1=0.000
+[channel] E-5 done 7.9s
+  E-6 anomaly_transformer 1.0s eF1=0.000
+  E-6 dcdetector 4.4s eF1=1.000
+  E-6 sbt 1.5s eF1=0.000
+[channel] E-6 done 8.0s
+  E-7 anomaly_transformer 1.0s eF1=0.000
+  E-7 dcdetector 4.4s eF1=0.286
+  E-7 sbt 1.5s eF1=0.000
+[channel] E-7 done 7.9s
+  E-8 anomaly_transformer 1.0s eF1=0.000
+  E-8 dcdetector 4.5s eF1=0.200
+  E-8 sbt 1.5s eF1=0.400
+[channel] E-8 done 8.1s
+  E-9 anomaly_transformer 1.0s eF1=0.000
+  E-9 dcdetector 4.5s eF1=0.000
+  E-9 sbt 1.6s eF1=1.000
+[channel] E-9 done 8.2s
+  F-1 anomaly_transformer 1.0s eF1=0.000
+  F-1 dcdetector 4.4s eF1=0.000
+  F-1 sbt 1.5s eF1=0.000
+[channel] F-1 done 7.9s
+  F-2 anomaly_transformer 1.0s eF1=0.000
+  F-2 dcdetector 4.7s eF1=0.000
+  F-2 sbt 1.5s eF1=0.000
+[channel] F-2 done 8.3s
+  F-3 anomaly_transformer 1.1s eF1=0.000
+  F-3 dcdetector 4.7s eF1=0.000
+  F-3 sbt 1.5s eF1=0.000
+[channel] F-3 done 8.3s
+  F-4 anomaly_transformer 0.8s eF1=0.000
+  F-4 dcdetector 3.4s eF1=0.000
+  F-4 sbt 1.1s eF1=0.111
+[channel] F-4 done 6.0s
+  F-5 anomaly_transformer 0.9s eF1=0.000
+  F-5 dcdetector 3.9s eF1=0.667
+  F-5 sbt 1.3s eF1=0.000
+[channel] F-5 done 6.9s
+  F-7 anomaly_transformer 1.0s eF1=0.000
+  F-7 dcdetector 4.9s eF1=0.000
+  F-7 sbt 1.6s eF1=0.000
+[channel] F-7 done 8.3s
+  F-8 anomaly_transformer 1.5s eF1=0.667
+  F-8 dcdetector 6.1s eF1=0.333
+  F-8 sbt 1.7s eF1=0.364
+[channel] F-8 done 10.1s
+  G-1 anomaly_transformer 1.0s eF1=0.000
+  G-1 dcdetector 5.9s eF1=0.000
+  G-1 sbt 1.5s eF1=0.000
+[channel] G-1 done 9.6s
+  G-2 anomaly_transformer 0.9s eF1=0.000
+  G-2 dcdetector 4.2s eF1=0.000
+  G-2 sbt 1.3s eF1=0.222
+[channel] G-2 done 7.3s
+  G-3 anomaly_transformer 1.0s eF1=0.000
+  G-3 dcdetector 4.0s eF1=0.000
+  G-3 sbt 1.4s eF1=0.000
+[channel] G-3 done 7.3s
+  G-4 anomaly_transformer 0.9s eF1=0.000
+  G-4 dcdetector 3.9s eF1=0.000
+  G-4 sbt 1.3s eF1=0.000
+[channel] G-4 done 6.9s
+  G-6 anomaly_transformer 1.0s eF1=0.000
+  G-6 dcdetector 4.2s eF1=0.667
+  G-6 sbt 1.5s eF1=0.160
+[channel] G-6 done 7.7s
+  G-7 anomaly_transformer 0.9s eF1=0.000
+  G-7 dcdetector 3.1s eF1=0.233
+  G-7 sbt 1.2s eF1=1.000
+[channel] G-7 done 6.0s
+  M-1 anomaly_transformer 0.7s eF1=0.000
+  M-1 dcdetector 3.3s eF1=0.941
+  M-1 sbt 1.1s eF1=0.000
+[channel] M-1 done 5.7s
+  M-2 anomaly_transformer 0.9s eF1=0.000
+  M-2 dcdetector 3.5s eF1=0.941
+  M-2 sbt 1.1s eF1=0.000
+[channel] M-2 done 6.1s
+  M-3 anomaly_transformer 0.8s eF1=0.000
+  M-3 dcdetector 3.1s eF1=0.286
+  M-3 sbt 1.0s eF1=0.000
+[channel] M-3 done 5.5s
+  M-4 anomaly_transformer 0.7s eF1=0.000
+  M-4 dcdetector 3.1s eF1=0.000
+  M-4 sbt 1.1s eF1=0.250
+[channel] M-4 done 5.5s
+  M-5 anomaly_transformer 0.8s eF1=0.000
+  M-5 dcdetector 3.5s eF1=1.000
+  M-5 sbt 1.6s eF1=0.750
+[channel] M-5 done 6.7s
+  M-6 anomaly_transformer 0.7s eF1=0.000
+  M-6 dcdetector 3.0s eF1=0.000
+  M-6 sbt 0.8s eF1=0.091
+[channel] M-6 done 5.1s
+  M-7 anomaly_transformer 0.6s eF1=0.800
+  M-7 dcdetector 2.6s eF1=0.000
+  M-7 sbt 0.9s eF1=0.000
+[channel] M-7 done 4.7s
+  P-1 anomaly_transformer 1.2s eF1=0.200
+  P-1 dcdetector 5.6s eF1=0.167
+  P-1 sbt 1.6s eF1=0.408
+[channel] P-1 done 9.6s
+  P-10 anomaly_transformer 1.6s eF1=0.000
+  P-10 dcdetector 7.1s eF1=0.400
+  P-10 sbt 2.2s eF1=1.000
+[channel] P-10 done 11.8s
+  P-11 anomaly_transformer 1.4s eF1=0.000
+  P-11 dcdetector 6.4s eF1=0.667
+  P-11 sbt 2.2s eF1=0.400
+[channel] P-11 done 10.8s
+  P-14 anomaly_transformer 1.2s eF1=0.250
+  P-14 dcdetector 4.7s eF1=0.000
+  P-14 sbt 1.5s eF1=0.222
+[channel] P-14 done 8.5s
+  P-15 anomaly_transformer 1.5s eF1=0.000
+  P-15 dcdetector 6.0s eF1=0.000
+  P-15 sbt 2.2s eF1=0.000
+[channel] P-15 done 10.4s
+  P-2 anomaly_transformer 1.2s eF1=0.000
+  P-2 dcdetector 4.5s eF1=0.000
+  P-2 sbt 1.5s eF1=0.000
+[channel] P-2 done 8.2s
+  P-3 anomaly_transformer 1.1s eF1=0.000
+  P-3 dcdetector 4.5s eF1=0.000
+  P-3 sbt 1.5s eF1=0.000
+[channel] P-3 done 8.2s
+  P-4 anomaly_transformer 0.9s eF1=0.000
+  P-4 dcdetector 4.3s eF1=0.000
+  P-4 sbt 1.5s eF1=0.000
+[channel] P-4 done 7.8s
+  P-7 anomaly_transformer 1.2s eF1=0.000
+  P-7 dcdetector 5.3s eF1=0.000
+  P-7 sbt 1.6s eF1=0.640
+[channel] P-7 done 9.1s
+  R-1 anomaly_transformer 1.1s eF1=0.000
+  R-1 dcdetector 4.7s eF1=0.000
+  R-1 sbt 1.6s eF1=0.000
+[channel] R-1 done 8.3s
+  S-1 anomaly_transformer 1.0s eF1=0.000
+  S-1 dcdetector 5.3s eF1=0.000
+  S-1 sbt 1.8s eF1=0.000
+[channel] S-1 done 9.1s
+  S-2 anomaly_transformer 0.3s eF1=0.250
+  S-2 dcdetector 1.5s eF1=0.000
+  S-2 sbt 0.4s eF1=0.000
+[channel] S-2 done 2.8s
+  T-1 anomaly_transformer 1.0s eF1=0.667
+  T-1 dcdetector 4.6s eF1=0.146
+  T-1 sbt 1.5s eF1=0.250
+[channel] T-1 done 8.1s
+  T-12 anomaly_transformer 0.4s eF1=0.000
+  T-12 dcdetector 1.7s eF1=0.143
+  T-12 sbt 0.6s eF1=0.000
+[channel] T-12 done 3.2s
+  T-13 anomaly_transformer 0.4s eF1=0.000
+  T-13 dcdetector 1.6s eF1=0.000
+  T-13 sbt 0.6s eF1=0.364
+[channel] T-13 done 3.1s
+  T-2 anomaly_transformer 1.0s eF1=0.000
+  T-2 dcdetector 4.5s eF1=0.000
+  T-2 sbt 1.5s eF1=0.000
+[channel] T-2 done 8.0s
+  T-3 anomaly_transformer 1.0s eF1=0.000
+  T-3 dcdetector 4.7s eF1=0.000
+  T-3 sbt 1.4s eF1=0.000
+[channel] T-3 done 8.2s
+  T-4 anomaly_transformer 0.8s eF1=0.000
+  T-4 dcdetector 3.9s eF1=0.000
+  T-4 sbt 1.2s eF1=0.000
+[channel] T-4 done 6.6s
+  T-5 anomaly_transformer 1.0s eF1=0.000
+  T-5 dcdetector 4.1s eF1=0.000
+  T-5 sbt 1.3s eF1=0.000
+[channel] T-5 done 7.0s
+  T-8 anomaly_transformer 0.5s eF1=0.207
+  T-8 dcdetector 1.3s eF1=0.400
+  T-8 sbt 0.5s eF1=0.179
+[channel] T-8 done 2.7s
+  T-9 anomaly_transformer 0.2s eF1=0.000
+  T-9 dcdetector 0.6s eF1=0.667
+  T-9 sbt 0.2s eF1=0.160
+[channel] T-9 done 1.5s

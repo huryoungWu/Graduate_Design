@@ -1,0 +1,13 @@
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\FOUR_BRANCH_VS_ALL.csv
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\FOUR_BRANCH_VS_ALL.md
+         dataset         new_method   new_F1  base_whiten_F1    fc_F1    rc_F1
+         batadal        3B-err-valW 0.687500        0.652482 0.530831 0.543807
+leakdb_hanoi1000       3B-usad-valW 0.440678        0.100786 0.116197 0.753363
+ leakdb_hanoi500    3B-usad-globalW 0.830508        0.707581 0.599388 0.628205
+     leakdb_net1         3B-ae-valW 0.793651        0.743363 0.671533 0.787645
+             psm   4B-usad-raw-valW 0.323765        0.039385 0.505215 0.381422
+ sml_machine-1-1        3B-ae-equal 0.756181        0.299648 0.638614 0.442823
+ sml_machine-1-2   4B-usad-raw-valW 0.517544        0.452459 0.442553 0.511732
+ sml_machine-2-1       3B-usad-valW 0.522565        0.344615 0.365420 0.522565
+            swat        3B-ae-equal 0.778717        0.789976 0.783615 0.751446
+            wadi 3B-err-raw-globalW 0.418577        0.082397      NaN      NaN

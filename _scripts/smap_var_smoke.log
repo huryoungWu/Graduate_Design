@@ -1,0 +1,6 @@
+[variants] channels=4 device=cuda
+  A-5: 9 rows 2.6s
+  C-1: 9 rows 1.3s
+  M-1: 9 rows 1.3s
+  P-1: 9 rows 2.0s
+[variants] done

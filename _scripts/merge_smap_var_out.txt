@@ -1,0 +1,30 @@
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\SMAP_MSL_TCN_VARIANTS.csv
+wrote C:\Users\ASUS\Documents\GraduateDesign_Processed_Dataset\runs\recon_comparison\SMAP_MSL_TCN_VARIANTS.md
+channels 79
+
+means:
+                       event_recall  event_precision  event_f1  median_delay  fa_per_1000
+model                                                                                    
+MICN-BASE-raw                 0.420            0.122     0.163        78.729        2.586
+MICN-BASE-whiten              0.460            0.146     0.191       118.132        2.717
+ModernTCN-BASE-raw            0.439            0.141     0.179       100.703        2.416
+ModernTCN-BASE-whiten         0.530            0.135     0.187       148.609        2.963
+REF-AE-recon                  0.405            0.133     0.179       154.621        2.161
+REF-TCN-forecast              0.397            0.159     0.201       159.818        1.959
+REF-USAD-recon                0.403            0.136     0.167        86.543        2.951
+SE-TCN-BASE-raw               0.534            0.175     0.229        68.011        2.676
+SE-TCN-BASE-whiten            0.498            0.151     0.196        92.390        2.543
+TCN-BASE-raw                  0.489            0.155     0.206        70.700        2.583
+TCN-BASE-whiten               0.470            0.152     0.194        93.988        2.505
+raw-COPOD                     0.451            0.147     0.184        89.865        2.247
+
+best fusion counts:
+model
+ModernTCN-BASE-whiten    12
+TCN-BASE-raw             12
+TCN-BASE-whiten           9
+ModernTCN-BASE-raw        8
+MICN-BASE-whiten          4
+SE-TCN-BASE-raw           4
+MICN-BASE-raw             3
+SE-TCN-BASE-whiten        2
